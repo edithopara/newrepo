@@ -1,0 +1,58 @@
+*{ 
+  margin: 0;
+  padding: 0;
+}
+
+
+body{ 
+  background-image: url(./red\ tower.jpeg);
+  background-repeat: no-repeat;
+  background-size: 1500px;
+  background-position: center;
+}
+
+.nav-links ul li{
+list-style: none;
+display: inline;
+padding: 8px 12px;
+position: relative;
+}
+.nav-links ul li a{
+  color: yellow;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.textbox{
+  width: 90%;
+  color: yellow;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.textbox h1{
+  font-size: 40px;
+}
+.textbox p{
+  margin: 10px 0 40px;
+  font-size: 20px;
+  color: yellow;
+}
+.hero{
+  display: inline-block;
+  text-decoration: none;
+  color: yellow;
+  border: 1px solid yellow;
+  padding: 12px 34px;
+  font-size: 16px;
+  background: palevioletred;
+  position: relative;
+  cursor: pointer;
+}
+.hero:hover{
+  border: 1px solid red;
+  background: red;
+  transition: 1s;
+}
